@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hardware Information - Smart Soil Monitoring System</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+        }
+        .card {
+            background-color: white;
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            margin-bottom: 2rem;
+            overflow: hidden;
+        }
+        pre {
+            background-color: #1f2937;
+            color: #d1d5db;
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            font-size: 0.875rem;
+            line-height: 1.6;
+            overflow-x: auto;
+        }
+        .code-keyword { color: #93c5fd; }
+        .code-string { color: #a5f3fc; }
+        .code-comment { color: #6b7280; }
+        .code-number { color: #f9a8d4; }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <div class="max-w-4xl mx-auto p-4 sm:p-6 lg:p-8">
+
+        <header class="text-center mb-10">
+            <h1 class="text-4xl font-bold text-gray-800">Smart Soil Monitoring System</h1>
+            <p class="mt-2 text-lg text-gray-600">Complete Hardware Information & Firmware</p>
+        </header>
+
+        <!-- Overview Section -->
+        <div class="card p-8">
+            <h2 class="text-2xl font-semibold text-gray-700 border-b pb-3 mb-4">Project Overview</h2>
+            <p class="text-gray-600 mb-4">
+                Increase crop yield and reduce costs with real-time soil monitoring. Sensors for NPK, pH, moisture, and humidity collect data, sent to an ESP32 controller.
+            </p>
+            <p class="text-gray-600">
+                A simple dashboard provides instant guidance on watering and fertilizing, ensuring healthy soil and efficient farming.
+            </p>
+        </div>
+
+        <!-- Aim Section -->
+        <div class="card p-8">
+            <h2 class="text-2xl font-semibold text-gray-700 border-b pb-3 mb-4">Project Aim</h2>
+            <p class="text-gray-600">
+                Collect accurate soil and environmental data (NPK, pH, moisture, temperature, humidity) for real-time monitoring and decision-making.
+            </p>
+        </div>
+        
+        <!-- System Diagram Section -->
+        <div class="card p-8">
+            <h2 class="text-2xl font-semibold text-gray-700 border-b pb-3 mb-4">System Diagram</h2>
+            <div class="bg-gray-50 p-4 rounded-lg">
+                <img src="https://i.ibb.co/L5B7M1Q/Hardware-Information-main-1.png" alt="Circuit Diagram of the soil monitoring hardware" class="w-full h-auto rounded-md">
+            </div>
+        </div>
+
+        <!-- Components and Pricing Section -->
+        <div class="card p-8">
+            <h2 class="text-2xl font-semibold text-gray-700 border-b pb-3 mb-4">Components & Pricing</h2>
+            <p class="text-sm text-gray-500 mb-4">(Based on a basic field-ready prototype)</p>
+            <div class="overflow-x-auto">
+                <table class="w-full text-left">
+                    <thead class="bg-gray-50">
+                        <tr>
+                            <th class="p-4 font-semibold text-gray-600">Sr. No.</th>
+                            <th class="p-4 font-semibold text-gray-600">Component</th>
+                            <th class="p-4 font-semibold text-gray-600 text-right">Approx. Cost (INR)</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y">
+                        <tr>
+                            <td class="p-4">1</td>
+                            <td class="p-4 font-medium text-gray-800">ESP32 Dev Board</td>
+                            <td class="p-4 text-right">₹390 - ₹1,000</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4">2</td>
+                            <td class="p-4 font-medium text-gray-800">NPK Sensor Module</td>
+                            <td class="p-4 text-right">₹1,500 - ₹2,000</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4">3</td>
+                            <td class="p-4 font-medium text-gray-800">pH Sensor</td>
+                            <td class="p-4 text-right">₹700 - ₹1,000</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4">4</td>
+                            <td class="p-4 font-medium text-gray-800">Soil Moisture Sensor</td>
+                            <td class="p-4 text-right">₹29 - ₹150</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4">5</td>
+                            <td class="p-4 font-medium text-gray-800">DHT22 (Temp & Humidity)</td>
+                            <td class="p-4 text-right">₹397 - ₹469</td>
+                        </tr>
+                         <tr>
+                            <td class="p-4">6</td>
+                            <td class="p-4 font-medium text-gray-800">Relay Module</td>
+                            <td class="p-4 text-right">₹120 - ₹200</td>
+                        </tr>
+                         <tr>
+                            <td class="p-4">7</td>
+                            <td class="p-4 font-medium text-gray-800">Power Supply & Cables</td>
+                            <td class="p-4 text-right">₹800 - ₹1,500</td>
+                        </tr>
+                    </tbody>
+                    <tfoot class="bg-gray-100">
+                        <tr>
+                            <td colspan="2" class="p-4 font-bold text-gray-800">Total Estimated Cost</td>
+                            <td class="p-4 font-bold text-gray-800 text-right">₹3,936 - ₹6,319</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+
+        <!-- Component Functions Section -->
+        <div class="card p-8">
+            <h2 class="text-2xl font-semibold text-gray-700 border-b pb-3 mb-4">Component Functions</h2>
+            <ul class="space-y-3 text-gray-600">
+                <li><strong>ESP32:</strong> Reads sensors, sends data to the dashboard via Wi-Fi.</li>
+                <li><strong>NPK Sensor:</strong> Measures essential soil nutrients (Nitrogen, Phosphorus, Potassium).</li>
+                <li><strong>pH Sensor:</strong> Checks the soil's acidity or alkalinity.</li>
+                <li><strong>Soil Moisture Sensor:</strong> Monitors the water content in the soil.</li>
+                <li><strong>DHT22:</strong> Measures ambient air temperature and humidity.</li>
+                <li><strong>Relay Module:</strong> Acts as a switch to control external devices like irrigation pumps.</li>
+                <li><strong>Power Supply & Cables:</strong> Provides power to the ESP32 and all connected sensors.</li>
+            </ul>
+        </div>
+        
+        <!-- Firmware Code Section -->
+        <div class="card p-8">
+            <h2 class="text-2xl font-semibold text-gray-700 border-b pb-3 mb-4">ESP32 Firmware (Arduino IDE)</h2>
+            <div class="mb-4">
+                <h3 class="font-medium text-gray-700">Required Libraries:</h3>
+                <p class="text-sm text-gray-500">WiFi.h, HTTPClient.h, DHT.h, ArduinoJson.h</p>
+            </div>
+            <pre><code><span class="code-keyword">#include</span> <span class="code-string">&lt;WiFi.h&gt;</span>
+<span class="code-keyword">#include</span> <span class="code-string">&lt;HTTPClient.h&gt;</span>
+<span class="code-keyword">#include</span> <span class="code-string">&lt;DHT.h&gt;</span>
+
+<span class="code-keyword">#define</span> DHTPIN 4
+<span class="code-keyword">#define</span> DHTTYPE DHT22
+<span class="code-keyword">#define</span> SOIL_MOIST_PIN 34
+<span class="code-keyword">#define</span> SOIL_PH_PIN 35
+<span class="code-keyword">#define</span> NPK_PIN 36
+
+<span class="code-keyword">const char*</span> ssid = <span class="code-string">"YOUR_WIFI_SSID"</span>;
+<span class="code-keyword">const char*</span> password = <span class="code-string">"YOUR_WIFI_PASSWORD"</span>;
+<span class="code-keyword">const char*</span> server = <span class="code-string">"http://YOUR_SERVER_IP:5000/api/sensor"</span>;
+
+DHT dht(DHTPIN, DHTTYPE);
+
+<span class="code-keyword">void</span> <span class="code-function">setup</span>() {
+  Serial.<span class="code-function">begin</span>(<span class="code-number">115200</span>);
+  dht.<span class="code-function">begin</span>();
+  WiFi.<span class="code-function">begin</span>(ssid, password);
+  
+  <span class="code-keyword">while</span> (WiFi.<span class="code-function">status</span>() != WL_CONNECTED) {
+    <span class="code-function">delay</span>(<span class="code-number">1000</span>);
+    Serial.<span class="code-function">print</span>(<span class="code-string">"."</span>);
+  }
+  
+  Serial.<span class="code-function">println</span>(<span class="code-string">"\\nWiFi connected"</span>);
+}
+
+<span class="code-keyword">void</span> <span class="code-function">loop</span>() {
+  <span class="code-keyword">float</span> t = dht.<span class="code-function">readTemperature</span>();
+  <span class="code-keyword">float</span> h = dht.<span class="code-function">readHumidity</span>();
+  <span class="code-keyword">int</span> moistRaw = <span class="code-function">analogRead</span>(SOIL_MOIST_PIN);
+  <span class="code-keyword">int</span> phRaw = <span class="code-function">analogRead</span>(SOIL_PH_PIN);
+  <span class="code-keyword">int</span> npkRaw = <span class="code-function">analogRead</span>(NPK_PIN);
+
+  <span class="code-comment">// Convert raw sensor values to meaningful data</span>
+  <span class="code-keyword">float</span> moisture = <span class="code-function">map</span>(moistRaw, <span class="code-number">4095</span>, <span class="code-number">0</span>, <span class="code-number">0</span>, <span class="code-number">100</span>);
+  <span class="code-keyword">float</span> phValue = (phRaw / <span class="code-number">4095.0</span>) * <span class="code-number">14.0</span>;
+  <span class="code-keyword">float</span> npkVal = (npkRaw / <span class="code-number">4095.0</span>) * <span class="code-number">100</span>; <span class="code-comment">// Placeholder conversion</span>
+
+  <span class="code-keyword">if</span> (WiFi.<span class="code-function">status</span>() == WL_CONNECTED) {
+    HTTPClient http;
+    http.<span class="code-function">begin</span>(server);
+    http.<span class="code-function">addHeader</span>(<span class="code-string">"Content-Type"</span>, <span class="code-string">"application/json"</span>);
+
+    String payload = <span class="code-string">"{\"temp\":"</span> + <span class="code-function">String</span>(t) +
+                   <span class="code-string">",\"hum\":"</span> + <span class="code-function">String</span>(h) +
+                   <span class="code-string">",\"moisture\":"</span> + <span class="code-function">String</span>(moisture) +
+                   <span class="code-string">",\"ph\":"</span> + <span class="code-function">String</span>(phValue) +
+                   <span class="code-string">",\"npk\":"</span> + <span class="code-function">String</span>(npkVal) + <span class="code-string">"}"</span>;
+
+    <span class="code-keyword">int</span> code = http.<span class="code-function">POST</span>(payload);
+    Serial.<span class="code-function">printf</span>(<span class="code-string">"POST code: %d\\n"</span>, code);
+    http.<span class="code-function">end</span>();
+  }
+
+  <span class="code-function">delay</span>(<span class="code-number">60000</span>); <span class="code-comment">// Send data at 1-minute intervals</span>
+}
+</code></pre>
+        </div>
+
+    </div>
+
+</body>
+</html>
